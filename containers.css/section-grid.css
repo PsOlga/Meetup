@@ -1,0 +1,83 @@
+/* добавить размер и цвет шрифта в текст инпута/* 
+сравнять цвет фона инпута*/
+/* прикрепить кнопку see к левому краю */
+
+.section-grid {
+    margin-left: 158.34px;
+   
+}
+.header-grid {
+   display: flex;
+
+}
+h2 {
+     size: 28px;
+     height: 36px;
+     padding-top: 4px;
+     margin-right: 7.8px;
+}
+.input-container-grid {
+    border-radius: 8px;
+    background-color: rgba(151, 202, 209, 0.12);
+    ::placeholder {
+       color: #00798A;
+        font-weight: bold;
+    }
+}
+.see-all {
+    background-color: rgba(151, 202, 209, 0.12);
+    outline: none;
+    color: #00798A;
+    font-weight: bold;
+   
+}
+.pencil {
+    height: 16.66px;
+    width: 14.67px;
+
+}
+.see {
+    text-decoration: none;
+    background-color: #fff;
+    color: #00798A;
+    font-size: 16px;
+    /* margin-left: auto; */
+}
+
+.grid-events {
+    display: grid;
+    grid-template-rows: repeat(2, auto); /* Две строки с автоматической высотой */
+    grid-template-columns: repeat(4, 1fr); /* Четыре колонки с равной шириной */
+    gap: 36px; 
+   
+}
+.events {
+    /* grid-template-columns: repeat(4, 1fr); */
+    margin-bottom: 12px;
+    color: #212121;
+ 
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+  height: fit-content;
+} 
+.remot {
+    font-size: 14px;
+    height: fit-content;
+}
+.date {
+    font-size: 14px;
+ margin-top: 8px;
+ margin-bottom: 12px;
+ height: fit-content;
+}
+.going {
+    font-size: 16px;
+    display: flex;
+    display: inline-flex;
+    height: fit-content;
+
+
+}

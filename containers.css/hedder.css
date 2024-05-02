@@ -1,0 +1,102 @@
+.header-l {
+    display: flex;
+    border-radius: 8px;
+    display: inline-flex; /* чтобы элементы отображались в строку */
+    /* align-items: center; */
+ height: 64px;
+  }
+
+ .page1 {
+    /* height: 64px; */
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 4px 4px 0;
+}
+  .image-logo {
+   background-color: #fff;
+   cursor: pointer;
+  } 
+ .input-container-l {
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    display: inline-flex; 
+    height: 42px;
+    margin-left: 40px;
+  }
+  input {
+    border: none;
+    padding: 13px 17px;
+    outline: none;
+  
+  }
+ 
+  .search-events-container {
+    display: inline-flex; /* чтобы элементы отображались в строку */
+ 
+  }
+  .search-img {
+    padding: 10px 10px;
+
+  }
+  .search-1 {
+    border-left: 1px solid #D9D9D9;
+    display: inline-flex; 
+    ::placeholder {
+        font-weight: bold;
+        font-size: 16px;
+        color: black;
+    }
+}
+  
+
+.href-container-r {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    margin-right: 49.87px;
+      }
+
+.header-r {
+  display: flex; /* Располагаем кнопки в ряд */
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+#english, #log-in, #sign-up {
+border: none;
+background-color: #fff;
+font-size: 14px;
+display: inline-flex;
+align-items: center;
+size: 14px;
+text-decoration: none;
+
+}
+#english {
+  width: 72.97px;
+  height: 20px;
+  margin-right: 22px;
+padding-left: 24px;
+  color: #212121;
+
+}
+#log-in {
+    margin-right: 22px;
+    width: 41.17px;
+    height: 20px;
+    color: #212121;
+   margin-left: 22.03px;
+
+}
+#sign-up {
+    color: white;
+    background-color: #00798A;
+    margin-right: 14px;
+    padding-left: 16px;
+    width: 83.13px;
+    height: 36px;
+    border-radius: 8px;
+
+}
